@@ -1,13 +1,15 @@
 <template>
   <div id="app">
+    <Demo/>
   </div>
 </template>
 
 <script>
-
+import Demo from './demo/Demo'
 export default {
   name: 'App',
   components: {
+    Demo,
   }
 }
 </script>
